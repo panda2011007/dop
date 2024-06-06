@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: palevioletred;
+    text-align: center;
+}
+.header_box > b{
+    color: yellow;
+}
+.card_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+}
+.big_box{
+    background-color: yellow;
+    
+}
+.card{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    color: white;
+}
+.navbar_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
